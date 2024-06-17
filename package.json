@@ -1,0 +1,80 @@
+{
+  "name": "@2bad/ts-lib-starter",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "template",
+    "typescript",
+    "starter"
+  ],
+  "homepage": "https://github.com/2BAD/ts-lib-starter#readme",
+  "bugs": {
+    "url": "https://github.com/2BAD/ts-lib-starter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2BAD/ts-lib-starter.git"
+  },
+  "license": "MIT",
+  "author": "2BAD (https://github.com/2BAD)",
+  "contributors": [
+    {
+      "name": "Jason Hyde",
+      "email": "github@2bad.me",
+      "url": "https://github.com/mrhyde"
+    }
+  ],
+  "type": "module",
+  "exports": "./build/index.js",
+  "typings": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "prebuild": "rimraf build",
+    "build": "run-p build:*",
+    "postbuild": "run-s fix:alias fix:ext",
+    "build:swc": "swc ./source -d ./build --strip-leading-paths",
+    "build:types": "tsc --project tsconfig.build.json",
+    "check": "run-p check:*",
+    "check:code": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "check:format": "biome format ./source",
+    "fix": "run-s fix:code fix:format",
+    "fix:alias": "tsc-alias -p tsconfig.build.json",
+    "fix:code": "run-s 'check:code -- --fix'",
+    "fix:ext": "./fix-ext.sh",
+    "fix:format": "biome format --write ./source",
+    "prepublishOnly": "run-s build",
+    "preversion": "run-s check test build",
+    "test": "vitest run",
+    "test:integration": "vitest run integration --coverage",
+    "test:unit": "vitest run unit --coverage"
+  },
+  "devDependencies": {
+    "@2bad/tsconfig": "3.0.1",
+    "@biomejs/biome": "1.8.1",
+    "@swc/cli": "0.3.12",
+    "@swc/core": "1.6.1",
+    "@types/node": "20.14.2",
+    "@vitest/coverage-v8": "1.6.0",
+    "eslint-config-love": "51.0.1",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-jsdoc": "48.2.12",
+    "eslint-plugin-vitest": "0.5.4",
+    "npm-run-all2": "6.2.0",
+    "rimraf": "5.0.7",
+    "tsc-alias": "1.8.10",
+    "typescript": "5.4.5",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "1.6.0"
+  },
+  "packageManager": "npm@10.8.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "volta": {
+    "node": "22.3.0",
+    "npm": "10.8.1"
+  }
+}
