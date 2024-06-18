@@ -1,19 +1,19 @@
 {
-  "name": "@2bad/ts-lib-starter",
+  "name": "@2bad/eslint-config",
   "version": "1.0.0",
   "description": "",
   "keywords": [
-    "template",
-    "typescript",
-    "starter"
+    "eslint",
+    "linter",
+    "typescript"
   ],
-  "homepage": "https://github.com/2BAD/ts-lib-starter#readme",
+  "homepage": "https://github.com/2BAD/eslint-config#readme",
   "bugs": {
-    "url": "https://github.com/2BAD/ts-lib-starter/issues"
+    "url": "https://github.com/2BAD/eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2BAD/ts-lib-starter.git"
+    "url": "git+https://github.com/2BAD/eslint-config.git"
   },
   "license": "MIT",
   "author": "2BAD (https://github.com/2BAD)",
@@ -50,6 +50,12 @@
     "test:integration": "vitest run integration --coverage",
     "test:unit": "vitest run unit --coverage"
   },
+  "dependencies": {
+    "@eslint/compat": "1.1.0",
+    "@eslint/js": "9.5.0",
+    "@types/eslint__js": "8.42.3",
+    "typescript-eslint": "8.0.0-alpha.30"
+  },
   "devDependencies": {
     "@2bad/tsconfig": "3.0.1",
     "@biomejs/biome": "1.8.1",
@@ -57,17 +63,16 @@
     "@swc/core": "1.6.1",
     "@types/node": "20.14.2",
     "@vitest/coverage-v8": "1.6.0",
-    "eslint-config-love": "51.0.1",
-    "eslint-config-prettier": "9.1.0",
-    "eslint-import-resolver-typescript": "3.6.1",
-    "eslint-plugin-jsdoc": "48.2.12",
-    "eslint-plugin-vitest": "0.5.4",
     "npm-run-all2": "6.2.0",
     "rimraf": "5.0.7",
     "tsc-alias": "1.8.10",
     "typescript": "5.4.5",
     "vite-tsconfig-paths": "4.3.2",
     "vitest": "1.6.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 9",
+    "typescript": ">= 5"
   },
   "packageManager": "npm@10.8.1",
   "engines": {
