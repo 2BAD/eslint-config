@@ -1,3 +1,14 @@
-import { go, where } from '~/quotes/parts.ts'
+import type { ESLint } from 'eslint'
+import all from './configs/all.ts'
+import recommended from './configs/recommended.ts'
+import strict from './configs/strict.ts'
 
-export const quote = `${go} ${where}`
+const plugin: ESLint.Plugin = {
+  configs: {
+    recommended,
+    strict,
+    all
+  }
+}
+
+export default plugin
