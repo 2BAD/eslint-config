@@ -52,22 +52,22 @@
   },
   "dependencies": {
     "@eslint/compat": "1.1.0",
-    "@eslint/js": "9.5.0",
+    "@eslint/js": "9.6.0",
     "@types/eslint__js": "8.42.3",
-    "typescript-eslint": "8.0.0-alpha.30"
+    "typescript-eslint": "8.0.0-alpha.39"
   },
   "devDependencies": {
     "@2bad/tsconfig": "3.0.1",
     "@2bad/tsfix": "0.1.0",
-    "@biomejs/biome": "1.8.1",
-    "@swc/cli": "0.3.12",
-    "@swc/core": "1.6.1",
-    "@types/node": "20.14.2",
+    "@biomejs/biome": "1.8.3",
+    "@swc/cli": "0.4.0",
+    "@swc/core": "1.6.6",
+    "@types/node": "20.14.9",
     "@vitest/coverage-v8": "1.6.0",
     "npm-run-all2": "6.2.0",
     "rimraf": "5.0.7",
     "tsc-alias": "1.8.10",
-    "typescript": "5.4.5",
+    "typescript": "5.5.3",
     "vite-tsconfig-paths": "4.3.2",
     "vitest": "1.6.0"
   },
