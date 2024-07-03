@@ -6,9 +6,9 @@ export { setup } from './setup.ts'
 
 const plugin: ESLint.Plugin = {
   configs: {
+    all,
     recommended,
-    strict,
-    all
+    strict
   }
 }
 

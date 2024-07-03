@@ -6,7 +6,7 @@ import setup from './setup.ts'
 const ignores = ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env']
 
 vi.mock('@eslint/compat', () => ({
-  includeIgnoreFile: vi.fn((_) => ({
+  includeIgnoreFile: vi.fn(() => ({
     name: 'Imported .gitignore patterns',
     ignores
   }))
