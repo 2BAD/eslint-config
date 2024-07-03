@@ -1,3 +1,3 @@
-import tb from './build/index.js'
+import tb, { setup } from './build/index.js'
 
-export default [tb.configs.all]
+export default [...setup(import.meta.dirname), ...tb.configs.strict]
