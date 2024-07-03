@@ -6,7 +6,7 @@ const recommended: Linter.FlatConfig[] = [
   {
     name: '2bad/strict'
   },
-  js.configs.all,
+  js.configs.recommended,
   ...(ts.configs.strict as Linter.FlatConfig[])
 ]
 
