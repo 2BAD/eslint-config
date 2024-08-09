@@ -52,27 +52,27 @@
   },
   "dependencies": {
     "@eslint/compat": "1.1.1",
-    "@eslint/js": "9.7.0",
+    "@eslint/js": "9.8.0",
     "@types/eslint__js": "8.42.3",
     "eslint-plugin-import-x": "0.5.3",
-    "eslint-plugin-jsdoc": "48.7.0",
-    "eslint-plugin-promise": "6.4.0",
-    "typescript-eslint": "8.0.0-alpha.44"
+    "eslint-plugin-jsdoc": "48.11.0",
+    "eslint-plugin-promise": "6.6.0",
+    "typescript-eslint": "8.0.1"
   },
   "devDependencies": {
     "@2bad/tsconfig": "3.0.1",
     "@2bad/tsfix": "0.1.0",
     "@biomejs/biome": "1.8.3",
     "@swc/cli": "0.4.0",
-    "@swc/core": "1.6.13",
-    "@types/node": "20.14.11",
-    "@vitest/coverage-v8": "2.0.3",
+    "@swc/core": "1.7.9",
+    "@types/node": "20.14.14",
+    "@vitest/coverage-v8": "2.0.5",
     "npm-run-all2": "6.2.2",
     "rimraf": "6.0.1",
     "tsc-alias": "1.8.10",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "vite-tsconfig-paths": "4.3.2",
-    "vitest": "2.0.3"
+    "vitest": "2.0.5"
   },
   "peerDependencies": {
     "eslint": ">= 9",
@@ -88,7 +88,7 @@
     "node": ">=20"
   },
   "volta": {
-    "node": "22.4.1",
+    "node": "22.6.0",
     "npm": "10.8.2"
   }
 }
