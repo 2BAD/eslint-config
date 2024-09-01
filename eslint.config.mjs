@@ -3,7 +3,7 @@ import * as plugin from './build/plugins/index.js'
 
 export default [
   ...tb.setup(import.meta.dirname),
-  ...tb.default.configs.strict,
+  ...tb.configs.strict,
   ...plugin.promise,
   ...plugin.import,
   ...plugin.jsdoc
