@@ -2,7 +2,7 @@ import { includeIgnoreFile } from '@eslint/compat'
 import type { Linter } from 'eslint'
 import { resolve } from 'node:path'
 
-export const setup = (dirname: string): Linter.FlatConfig[] => {
+export const setup = (dirname: string): Linter.Config[] => {
   return [
     {
       name: '2bad/setup/ignore-files',

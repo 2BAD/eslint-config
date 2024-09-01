@@ -1,7 +1,7 @@
 import plugin from '@vitest/eslint-plugin'
 import type { Linter } from 'eslint'
 
-export const config: Linter.FlatConfig[] = [
+export const config: Linter.Config[] = [
   {
     name: '2bad/eslint-plugin-vitest',
     ...plugin.configs.all,
