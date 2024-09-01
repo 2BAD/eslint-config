@@ -12,10 +12,6 @@ export const config = [
       ecmaVersion: 'latest',
       sourceType: 'module'
     },
-    ignores: ['eslint.config.js'],
-    rules: {
-      'import-x/no-unresolved': 'error'
-    },
     settings: {
       'import-x/resolver': {
         typescript: true
