@@ -1,0 +1,40 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`setup > should return an array of FlatConfig objects 1`] = `
+[
+  {
+    "ignores": [
+      "**/logs",
+      "**/tmp",
+      "**/node_modules",
+      "**/build",
+      "**/coverage",
+      "**/.env",
+    ],
+    "name": "Imported .gitignore patterns",
+  },
+  {
+    "linterOptions": {
+      "reportUnusedDisableDirectives": "error",
+    },
+    "name": "2bad/setup/linter-options",
+  },
+  {
+    "languageOptions": {
+      "parserOptions": {
+        "projectService": true,
+        "tsconfigRootDir": "/home/projects/2BAD/eslint-config/source",
+      },
+    },
+    "name": "2bad/setup/language-options",
+  },
+  {
+    "files": [
+      "**/*.ts",
+      "**/*.cts",
+      "**.*.mts",
+    ],
+    "name": "2bad/setup/file-extension",
+  },
+]
+`;

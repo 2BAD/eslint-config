@@ -15,26 +15,10 @@ vi.mock('@eslint/compat', () => ({
 describe('setup', () => {
   it('should return an array of FlatConfig objects', () => {
     const dirname = '/some/dir'
-    const expected = [
-      {
-        name: 'Imported .gitignore patterns',
-        ignores
-      },
-      {
-        name: '2bad/setup/linter-options',
-        linterOptions: {
-          reportUnusedDisableDirectives: 'error'
-        }
-      },
-      {
-        name: '2bad/setup/file-extension',
-        files: ['**/*.ts', '**/*.cts', '**.*.mts']
-      }
-    ]
 
     const result = setup(dirname)
 
-    expect(result).toEqual(expected)
+    expect(result).toMatchSnapshot()
   })
 
   it('should correctly resolve the .gitignore path', () => {
