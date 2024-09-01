@@ -14,7 +14,7 @@ vi.mock('@eslint/compat', () => ({
 
 describe('setup', () => {
   it('should return an array of FlatConfig objects with correct properties', () => {
-    const dirname = 'eslint-config/source'
+    const dirname = 'eslint-config'
 
     const result = setup(dirname)
 
