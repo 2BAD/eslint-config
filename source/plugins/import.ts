@@ -14,7 +14,7 @@ export const config = [
     },
     ignores: ['eslint.config.js'],
     rules: {
-      'import/no-unresolved': 'error'
+      'import-x/no-unresolved': 'error'
     },
     settings: {
       'import-x/resolver': {
