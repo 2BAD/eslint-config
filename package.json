@@ -25,7 +25,10 @@
     }
   ],
   "type": "module",
-  "exports": "./build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./plugins": "./build/plugins/index.js"
+  },
   "typings": "./build/index.d.ts",
   "files": [
     "build"
