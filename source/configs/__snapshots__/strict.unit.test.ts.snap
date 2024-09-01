@@ -3,203 +3,67 @@
 exports[`strict > should include the js all config 1`] = `
 {
   "rules": {
-    "accessor-pairs": "error",
-    "array-callback-return": "error",
-    "arrow-body-style": "error",
-    "block-scoped-var": "error",
-    "camelcase": "error",
-    "capitalized-comments": "error",
-    "class-methods-use-this": "error",
-    "complexity": "error",
-    "consistent-return": "error",
-    "consistent-this": "error",
     "constructor-super": "error",
-    "curly": "error",
-    "default-case": "error",
-    "default-case-last": "error",
-    "default-param-last": "error",
-    "dot-notation": "error",
-    "eqeqeq": "error",
     "for-direction": "error",
-    "func-name-matching": "error",
-    "func-names": "error",
-    "func-style": "error",
     "getter-return": "error",
-    "grouped-accessor-pairs": "error",
-    "guard-for-in": "error",
-    "id-denylist": "error",
-    "id-length": "error",
-    "id-match": "error",
-    "init-declarations": "error",
-    "logical-assignment-operators": "error",
-    "max-classes-per-file": "error",
-    "max-depth": "error",
-    "max-lines": "error",
-    "max-lines-per-function": "error",
-    "max-nested-callbacks": "error",
-    "max-params": "error",
-    "max-statements": "error",
-    "new-cap": "error",
-    "no-alert": "error",
-    "no-array-constructor": "error",
     "no-async-promise-executor": "error",
-    "no-await-in-loop": "error",
-    "no-bitwise": "error",
-    "no-caller": "error",
     "no-case-declarations": "error",
     "no-class-assign": "error",
     "no-compare-neg-zero": "error",
     "no-cond-assign": "error",
-    "no-console": "error",
     "no-const-assign": "error",
     "no-constant-binary-expression": "error",
     "no-constant-condition": "error",
-    "no-constructor-return": "error",
-    "no-continue": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
     "no-delete-var": "error",
-    "no-div-regex": "error",
     "no-dupe-args": "error",
     "no-dupe-class-members": "error",
     "no-dupe-else-if": "error",
     "no-dupe-keys": "error",
     "no-duplicate-case": "error",
-    "no-duplicate-imports": "error",
-    "no-else-return": "error",
     "no-empty": "error",
     "no-empty-character-class": "error",
-    "no-empty-function": "error",
     "no-empty-pattern": "error",
     "no-empty-static-block": "error",
-    "no-eq-null": "error",
-    "no-eval": "error",
     "no-ex-assign": "error",
-    "no-extend-native": "error",
-    "no-extra-bind": "error",
     "no-extra-boolean-cast": "error",
-    "no-extra-label": "error",
     "no-fallthrough": "error",
     "no-func-assign": "error",
     "no-global-assign": "error",
-    "no-implicit-coercion": "error",
-    "no-implicit-globals": "error",
-    "no-implied-eval": "error",
     "no-import-assign": "error",
-    "no-inline-comments": "error",
-    "no-inner-declarations": "error",
     "no-invalid-regexp": "error",
-    "no-invalid-this": "error",
     "no-irregular-whitespace": "error",
-    "no-iterator": "error",
-    "no-label-var": "error",
-    "no-labels": "error",
-    "no-lone-blocks": "error",
-    "no-lonely-if": "error",
-    "no-loop-func": "error",
     "no-loss-of-precision": "error",
-    "no-magic-numbers": "error",
     "no-misleading-character-class": "error",
-    "no-multi-assign": "error",
-    "no-multi-str": "error",
-    "no-negated-condition": "error",
-    "no-nested-ternary": "error",
-    "no-new": "error",
-    "no-new-func": "error",
     "no-new-native-nonconstructor": "error",
-    "no-new-wrappers": "error",
     "no-nonoctal-decimal-escape": "error",
     "no-obj-calls": "error",
-    "no-object-constructor": "error",
     "no-octal": "error",
-    "no-octal-escape": "error",
-    "no-param-reassign": "error",
-    "no-plusplus": "error",
-    "no-promise-executor-return": "error",
-    "no-proto": "error",
     "no-prototype-builtins": "error",
     "no-redeclare": "error",
     "no-regex-spaces": "error",
-    "no-restricted-exports": "error",
-    "no-restricted-globals": "error",
-    "no-restricted-imports": "error",
-    "no-restricted-properties": "error",
-    "no-restricted-syntax": "error",
-    "no-return-assign": "error",
-    "no-script-url": "error",
     "no-self-assign": "error",
-    "no-self-compare": "error",
-    "no-sequences": "error",
     "no-setter-return": "error",
-    "no-shadow": "error",
     "no-shadow-restricted-names": "error",
     "no-sparse-arrays": "error",
-    "no-template-curly-in-string": "error",
-    "no-ternary": "error",
     "no-this-before-super": "error",
-    "no-throw-literal": "error",
     "no-undef": "error",
-    "no-undef-init": "error",
-    "no-undefined": "error",
-    "no-underscore-dangle": "error",
     "no-unexpected-multiline": "error",
-    "no-unmodified-loop-condition": "error",
-    "no-unneeded-ternary": "error",
     "no-unreachable": "error",
-    "no-unreachable-loop": "error",
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "no-unsafe-optional-chaining": "error",
-    "no-unused-expressions": "error",
     "no-unused-labels": "error",
     "no-unused-private-class-members": "error",
     "no-unused-vars": "error",
-    "no-use-before-define": "error",
-    "no-useless-assignment": "error",
     "no-useless-backreference": "error",
-    "no-useless-call": "error",
     "no-useless-catch": "error",
-    "no-useless-computed-key": "error",
-    "no-useless-concat": "error",
-    "no-useless-constructor": "error",
     "no-useless-escape": "error",
-    "no-useless-rename": "error",
-    "no-useless-return": "error",
-    "no-var": "error",
-    "no-void": "error",
-    "no-warning-comments": "error",
     "no-with": "error",
-    "object-shorthand": "error",
-    "one-var": "error",
-    "operator-assignment": "error",
-    "prefer-arrow-callback": "error",
-    "prefer-const": "error",
-    "prefer-destructuring": "error",
-    "prefer-exponentiation-operator": "error",
-    "prefer-named-capture-group": "error",
-    "prefer-numeric-literals": "error",
-    "prefer-object-has-own": "error",
-    "prefer-object-spread": "error",
-    "prefer-promise-reject-errors": "error",
-    "prefer-regex-literals": "error",
-    "prefer-rest-params": "error",
-    "prefer-spread": "error",
-    "prefer-template": "error",
-    "radix": "error",
-    "require-atomic-updates": "error",
-    "require-await": "error",
-    "require-unicode-regexp": "error",
     "require-yield": "error",
-    "sort-imports": "error",
-    "sort-keys": "error",
-    "sort-vars": "error",
-    "strict": "error",
-    "symbol-description": "error",
-    "unicode-bom": "error",
     "use-isnan": "error",
     "valid-typeof": "error",
-    "vars-on-top": "error",
-    "yoda": "error",
   },
 }
 `;
@@ -211,203 +75,67 @@ exports[`strict > should match the snapshot 1`] = `
   },
   {
     "rules": {
-      "accessor-pairs": "error",
-      "array-callback-return": "error",
-      "arrow-body-style": "error",
-      "block-scoped-var": "error",
-      "camelcase": "error",
-      "capitalized-comments": "error",
-      "class-methods-use-this": "error",
-      "complexity": "error",
-      "consistent-return": "error",
-      "consistent-this": "error",
       "constructor-super": "error",
-      "curly": "error",
-      "default-case": "error",
-      "default-case-last": "error",
-      "default-param-last": "error",
-      "dot-notation": "error",
-      "eqeqeq": "error",
       "for-direction": "error",
-      "func-name-matching": "error",
-      "func-names": "error",
-      "func-style": "error",
       "getter-return": "error",
-      "grouped-accessor-pairs": "error",
-      "guard-for-in": "error",
-      "id-denylist": "error",
-      "id-length": "error",
-      "id-match": "error",
-      "init-declarations": "error",
-      "logical-assignment-operators": "error",
-      "max-classes-per-file": "error",
-      "max-depth": "error",
-      "max-lines": "error",
-      "max-lines-per-function": "error",
-      "max-nested-callbacks": "error",
-      "max-params": "error",
-      "max-statements": "error",
-      "new-cap": "error",
-      "no-alert": "error",
-      "no-array-constructor": "error",
       "no-async-promise-executor": "error",
-      "no-await-in-loop": "error",
-      "no-bitwise": "error",
-      "no-caller": "error",
       "no-case-declarations": "error",
       "no-class-assign": "error",
       "no-compare-neg-zero": "error",
       "no-cond-assign": "error",
-      "no-console": "error",
       "no-const-assign": "error",
       "no-constant-binary-expression": "error",
       "no-constant-condition": "error",
-      "no-constructor-return": "error",
-      "no-continue": "error",
       "no-control-regex": "error",
       "no-debugger": "error",
       "no-delete-var": "error",
-      "no-div-regex": "error",
       "no-dupe-args": "error",
       "no-dupe-class-members": "error",
       "no-dupe-else-if": "error",
       "no-dupe-keys": "error",
       "no-duplicate-case": "error",
-      "no-duplicate-imports": "error",
-      "no-else-return": "error",
       "no-empty": "error",
       "no-empty-character-class": "error",
-      "no-empty-function": "error",
       "no-empty-pattern": "error",
       "no-empty-static-block": "error",
-      "no-eq-null": "error",
-      "no-eval": "error",
       "no-ex-assign": "error",
-      "no-extend-native": "error",
-      "no-extra-bind": "error",
       "no-extra-boolean-cast": "error",
-      "no-extra-label": "error",
       "no-fallthrough": "error",
       "no-func-assign": "error",
       "no-global-assign": "error",
-      "no-implicit-coercion": "error",
-      "no-implicit-globals": "error",
-      "no-implied-eval": "error",
       "no-import-assign": "error",
-      "no-inline-comments": "error",
-      "no-inner-declarations": "error",
       "no-invalid-regexp": "error",
-      "no-invalid-this": "error",
       "no-irregular-whitespace": "error",
-      "no-iterator": "error",
-      "no-label-var": "error",
-      "no-labels": "error",
-      "no-lone-blocks": "error",
-      "no-lonely-if": "error",
-      "no-loop-func": "error",
       "no-loss-of-precision": "error",
-      "no-magic-numbers": "error",
       "no-misleading-character-class": "error",
-      "no-multi-assign": "error",
-      "no-multi-str": "error",
-      "no-negated-condition": "error",
-      "no-nested-ternary": "error",
-      "no-new": "error",
-      "no-new-func": "error",
       "no-new-native-nonconstructor": "error",
-      "no-new-wrappers": "error",
       "no-nonoctal-decimal-escape": "error",
       "no-obj-calls": "error",
-      "no-object-constructor": "error",
       "no-octal": "error",
-      "no-octal-escape": "error",
-      "no-param-reassign": "error",
-      "no-plusplus": "error",
-      "no-promise-executor-return": "error",
-      "no-proto": "error",
       "no-prototype-builtins": "error",
       "no-redeclare": "error",
       "no-regex-spaces": "error",
-      "no-restricted-exports": "error",
-      "no-restricted-globals": "error",
-      "no-restricted-imports": "error",
-      "no-restricted-properties": "error",
-      "no-restricted-syntax": "error",
-      "no-return-assign": "error",
-      "no-script-url": "error",
       "no-self-assign": "error",
-      "no-self-compare": "error",
-      "no-sequences": "error",
       "no-setter-return": "error",
-      "no-shadow": "error",
       "no-shadow-restricted-names": "error",
       "no-sparse-arrays": "error",
-      "no-template-curly-in-string": "error",
-      "no-ternary": "error",
       "no-this-before-super": "error",
-      "no-throw-literal": "error",
       "no-undef": "error",
-      "no-undef-init": "error",
-      "no-undefined": "error",
-      "no-underscore-dangle": "error",
       "no-unexpected-multiline": "error",
-      "no-unmodified-loop-condition": "error",
-      "no-unneeded-ternary": "error",
       "no-unreachable": "error",
-      "no-unreachable-loop": "error",
       "no-unsafe-finally": "error",
       "no-unsafe-negation": "error",
       "no-unsafe-optional-chaining": "error",
-      "no-unused-expressions": "error",
       "no-unused-labels": "error",
       "no-unused-private-class-members": "error",
       "no-unused-vars": "error",
-      "no-use-before-define": "error",
-      "no-useless-assignment": "error",
       "no-useless-backreference": "error",
-      "no-useless-call": "error",
       "no-useless-catch": "error",
-      "no-useless-computed-key": "error",
-      "no-useless-concat": "error",
-      "no-useless-constructor": "error",
       "no-useless-escape": "error",
-      "no-useless-rename": "error",
-      "no-useless-return": "error",
-      "no-var": "error",
-      "no-void": "error",
-      "no-warning-comments": "error",
       "no-with": "error",
-      "object-shorthand": "error",
-      "one-var": "error",
-      "operator-assignment": "error",
-      "prefer-arrow-callback": "error",
-      "prefer-const": "error",
-      "prefer-destructuring": "error",
-      "prefer-exponentiation-operator": "error",
-      "prefer-named-capture-group": "error",
-      "prefer-numeric-literals": "error",
-      "prefer-object-has-own": "error",
-      "prefer-object-spread": "error",
-      "prefer-promise-reject-errors": "error",
-      "prefer-regex-literals": "error",
-      "prefer-rest-params": "error",
-      "prefer-spread": "error",
-      "prefer-template": "error",
-      "radix": "error",
-      "require-atomic-updates": "error",
-      "require-await": "error",
-      "require-unicode-regexp": "error",
       "require-yield": "error",
-      "sort-imports": "error",
-      "sort-keys": "error",
-      "sort-vars": "error",
-      "strict": "error",
-      "symbol-description": "error",
-      "unicode-bom": "error",
       "use-isnan": "error",
       "valid-typeof": "error",
-      "vars-on-top": "error",
-      "yoda": "error",
     },
   },
   {
@@ -415,7 +143,7 @@ exports[`strict > should match the snapshot 1`] = `
       "parser": {
         "meta": {
           "name": "typescript-eslint/parser",
-          "version": "8.0.0-alpha.39",
+          "version": "8.3.1-alpha.10",
         },
         "parseForESLint": [Function],
       },
@@ -460,6 +188,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-base-to-string": "error",
               "@typescript-eslint/no-confusing-non-null-assertion": "error",
               "@typescript-eslint/no-confusing-void-expression": "error",
+              "@typescript-eslint/no-deprecated": "error",
               "@typescript-eslint/no-dupe-class-members": "error",
               "@typescript-eslint/no-duplicate-enum-values": "error",
               "@typescript-eslint/no-duplicate-type-constituents": "error",
@@ -495,6 +224,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-this-alias": "error",
               "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
               "@typescript-eslint/no-unnecessary-condition": "error",
+              "@typescript-eslint/no-unnecessary-parameter-property-assignment": "error",
               "@typescript-eslint/no-unnecessary-qualifier": "error",
               "@typescript-eslint/no-unnecessary-template-expression": "error",
               "@typescript-eslint/no-unnecessary-type-arguments": "error",
@@ -601,6 +331,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-array-delete": "off",
               "@typescript-eslint/no-base-to-string": "off",
               "@typescript-eslint/no-confusing-void-expression": "off",
+              "@typescript-eslint/no-deprecated": "off",
               "@typescript-eslint/no-duplicate-type-constituents": "off",
               "@typescript-eslint/no-floating-promises": "off",
               "@typescript-eslint/no-for-in-array": "off",
@@ -928,6 +659,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-array-delete": "error",
               "@typescript-eslint/no-base-to-string": "error",
               "@typescript-eslint/no-confusing-void-expression": "error",
+              "@typescript-eslint/no-deprecated": "error",
               "@typescript-eslint/no-duplicate-enum-values": "error",
               "@typescript-eslint/no-duplicate-type-constituents": "error",
               "@typescript-eslint/no-dynamic-delete": "error",
@@ -956,6 +688,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-unnecessary-type-arguments": "error",
               "@typescript-eslint/no-unnecessary-type-assertion": "error",
               "@typescript-eslint/no-unnecessary-type-constraint": "error",
+              "@typescript-eslint/no-unnecessary-type-parameters": "error",
               "@typescript-eslint/no-unsafe-argument": "error",
               "@typescript-eslint/no-unsafe-assignment": "error",
               "@typescript-eslint/no-unsafe-call": "error",
@@ -998,12 +731,17 @@ exports[`strict > should match the snapshot 1`] = `
                   "allowRegExp": false,
                 },
               ],
+              "@typescript-eslint/return-await": [
+                "error",
+                "error-handling-correctness-only",
+              ],
               "@typescript-eslint/triple-slash-reference": "error",
               "@typescript-eslint/unbound-method": "error",
               "@typescript-eslint/unified-signatures": "error",
               "@typescript-eslint/use-unknown-in-catch-callback-variable": "error",
               "no-array-constructor": "off",
               "no-implied-eval": "off",
+              "no-return-await": "off",
               "no-throw-literal": "off",
               "no-unused-expressions": "off",
               "no-unused-vars": "off",
@@ -1022,6 +760,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-array-delete": "error",
               "@typescript-eslint/no-base-to-string": "error",
               "@typescript-eslint/no-confusing-void-expression": "error",
+              "@typescript-eslint/no-deprecated": "error",
               "@typescript-eslint/no-duplicate-type-constituents": "error",
               "@typescript-eslint/no-floating-promises": "error",
               "@typescript-eslint/no-for-in-array": "error",
@@ -1035,6 +774,7 @@ exports[`strict > should match the snapshot 1`] = `
               "@typescript-eslint/no-unnecessary-template-expression": "error",
               "@typescript-eslint/no-unnecessary-type-arguments": "error",
               "@typescript-eslint/no-unnecessary-type-assertion": "error",
+              "@typescript-eslint/no-unnecessary-type-parameters": "error",
               "@typescript-eslint/no-unsafe-argument": "error",
               "@typescript-eslint/no-unsafe-assignment": "error",
               "@typescript-eslint/no-unsafe-call": "error",
@@ -1068,9 +808,14 @@ exports[`strict > should match the snapshot 1`] = `
                   "allowRegExp": false,
                 },
               ],
+              "@typescript-eslint/return-await": [
+                "error",
+                "error-handling-correctness-only",
+              ],
               "@typescript-eslint/unbound-method": "error",
               "@typescript-eslint/use-unknown-in-catch-callback-variable": "error",
               "no-implied-eval": "off",
+              "no-return-await": "off",
               "no-throw-literal": "off",
               "prefer-promise-reject-errors": "off",
               "require-await": "off",
@@ -1149,7 +894,7 @@ exports[`strict > should match the snapshot 1`] = `
         },
         "meta": {
           "name": "@typescript-eslint/eslint-plugin",
-          "version": "8.0.0-alpha.39",
+          "version": "8.3.1-alpha.10",
         },
         "rules": {
           "adjacent-overload-signatures": {
@@ -1186,6 +931,7 @@ exports[`strict > should match the snapshot 1`] = `
                 "errorStringArray": "Array type using '{{className}}<{{type}}>' is forbidden. Use '{{readonlyPrefix}}{{type}}[]' instead.",
                 "errorStringArrayReadonly": "Array type using '{{className}}<{{type}}>' is forbidden. Use '{{readonlyPrefix}}{{type}}' instead.",
                 "errorStringArraySimple": "Array type using '{{className}}<{{type}}>' is forbidden for simple types. Use '{{readonlyPrefix}}{{type}}[]' instead.",
+                "errorStringArraySimpleReadonly": "Array type using '{{className}}<{{type}}>' is forbidden for simple types. Use '{{readonlyPrefix}}{{type}}' instead.",
                 "errorStringGeneric": "Array type using '{{readonlyPrefix}}{{type}}[]' is forbidden. Use '{{className}}<{{type}}>' instead.",
                 "errorStringGenericSimple": "Array type using '{{readonlyPrefix}}{{type}}[]' is forbidden for non-simple types. Use '{{className}}<{{type}}>' instead.",
               },
@@ -1300,6 +1046,7 @@ exports[`strict > should match the snapshot 1`] = `
                   "properties": {
                     "minimumDescriptionLength": {
                       "default": 3,
+                      "description": "A minimum character length for descriptions when \`allow-with-description\` is enabled.",
                       "type": "number",
                     },
                     "ts-check": {
@@ -1553,6 +1300,7 @@ exports[`strict > should match the snapshot 1`] = `
                       "additionalProperties": false,
                       "properties": {
                         "assertionStyle": {
+                          "description": "The expected assertion style to enforce.",
                           "enum": [
                             "never",
                           ],
@@ -1568,6 +1316,7 @@ exports[`strict > should match the snapshot 1`] = `
                       "additionalProperties": false,
                       "properties": {
                         "assertionStyle": {
+                          "description": "The expected assertion style to enforce.",
                           "enum": [
                             "as",
                             "angle-bracket",
@@ -1575,6 +1324,7 @@ exports[`strict > should match the snapshot 1`] = `
                           "type": "string",
                         },
                         "objectLiteralTypeAssertions": {
+                          "description": "Whether to always prefer type declarations for object literals used as variable initializers, rather than type assertions.",
                           "enum": [
                             "allow",
                             "allow-as-parameter",
@@ -1646,6 +1396,7 @@ exports[`strict > should match the snapshot 1`] = `
                   "additionalProperties": false,
                   "properties": {
                     "fixMixedExportsWithInlineTypeSpecifier": {
+                      "description": "Whether the rule will autofix "mixed" export cases using TS inline type specifiers.",
                       "type": "boolean",
                     },
                   },
@@ -1681,9 +1432,11 @@ exports[`strict > should match the snapshot 1`] = `
                   "additionalProperties": false,
                   "properties": {
                     "disallowTypeAnnotations": {
+                      "description": "Whether to disallow type imports in type annotations (\`import()\`).",
                       "type": "boolean",
                     },
                     "fixStyle": {
+                      "description": "The expected type modifier to be added when an import is detected as used only in the type position.",
                       "enum": [
                         "separate-type-imports",
                         "inline-type-imports",
@@ -1691,6 +1444,7 @@ exports[`strict > should match the snapshot 1`] = `
                       "type": "string",
                     },
                     "prefer": {
+                      "description": "The expected import kind for type-only imports.",
                       "enum": [
                         "type-imports",
                         "no-type-imports",
@@ -1751,22 +1505,27 @@ exports[`strict > should match the snapshot 1`] = `
                   "properties": {
                     "allowIndexSignaturePropertyAccess": {
                       "default": false,
+                      "description": "Whether to allow accessing properties matching an index signature with array notation.",
                       "type": "boolean",
                     },
                     "allowKeywords": {
                       "default": true,
+                      "description": "Whether to allow keywords such as ["class"]\`.",
                       "type": "boolean",
                     },
                     "allowPattern": {
                       "default": "",
+                      "description": "Regular expression of names to allow.",
                       "type": "string",
                     },
                     "allowPrivateClassPropertyAccess": {
                       "default": false,
+                      "description": "Whether to allow accessing class members marked as \`private\` with array notation.",
                       "type": "boolean",
                     },
                     "allowProtectedClassPropertyAccess": {
                       "default": false,
+                      "description": "Whether to allow accessing class members marked as \`protected\` with array notation.",
                       "type": "boolean",
                     },
                   },
@@ -1898,6 +1657,7 @@ exports[`strict > should match the snapshot 1`] = `
                       "$ref": "#/items/0/$defs/accessibilityLevel",
                     },
                     "ignoredMethodNames": {
+                      "description": "Specific method names that may be ignored.",
                       "items": {
                         "type": "string",
                       },
@@ -2068,13 +1828,16 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "countVoidThis": {
+                      "description": "Whether to count a \`this\` declaration when the type is \`void\`.",
                       "type": "boolean",
                     },
                     "max": {
+                      "description": "A maximum number of parameters in function definitions.",
                       "minimum": 0,
                       "type": "integer",
                     },
                     "maximum": {
+                      "description": "(deprecated) A maximum number of parameters in function definitions.",
                       "minimum": 0,
                       "type": "integer",
                     },
@@ -4604,6 +4367,7 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "ignoredTypeNames": {
+                      "description": "Stringified regular expressions of type names to ignore.",
                       "items": {
                         "type": "string",
                       },
@@ -4669,15 +4433,35 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "ignoreArrowShorthand": {
+                      "description": "Whether to ignore "shorthand" \`() =>\` arrow functions: those without \`{ ... }\` braces.",
                       "type": "boolean",
                     },
                     "ignoreVoidOperator": {
+                      "description": "Whether to ignore returns that start with the \`void\` operator.",
                       "type": "boolean",
                     },
                   },
                   "type": "object",
                 },
               ],
+              "type": "problem",
+            },
+          },
+          "no-deprecated": {
+            "create": [Function],
+            "defaultOptions": [],
+            "meta": {
+              "docs": {
+                "description": "Disallow using code marked as \`@deprecated\`",
+                "recommended": "strict",
+                "requiresTypeChecking": true,
+                "url": "https://typescript-eslint.io/rules/no-deprecated",
+              },
+              "messages": {
+                "deprecated": "\`{{name}}\` is deprecated.",
+                "deprecatedWithReason": "\`{{name}}\` is deprecated. {{reason}}",
+              },
+              "schema": [],
               "type": "problem",
             },
           },
@@ -4739,9 +4523,11 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "ignoreIntersections": {
+                      "description": "Whether to ignore \`&\` intersections.",
                       "type": "boolean",
                     },
                     "ignoreUnions": {
+                      "description": "Whether to ignore \`|\` unions.",
                       "type": "boolean",
                     },
                   },
@@ -4791,6 +4577,7 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allow": {
+                      "description": "Locations and kinds of functions that are allowed to be empty.",
                       "items": {
                         "enum": [
                           "functions",
@@ -4847,6 +4634,7 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allowSingleExtends": {
+                      "description": "Whether to allow empty interfaces that extend a single other interface.",
                       "type": "boolean",
                     },
                   },
@@ -4890,6 +4678,7 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allowInterfaces": {
+                      "description": "Whether to allow empty interfaces.",
                       "enum": [
                         "always",
                         "never",
@@ -4898,6 +4687,7 @@ You must still type the parameters of the function.",
                       "type": "string",
                     },
                     "allowObjectTypes": {
+                      "description": "Whether to allow empty object type literals.",
                       "enum": [
                         "always",
                         "never",
@@ -4905,6 +4695,7 @@ You must still type the parameters of the function.",
                       "type": "string",
                     },
                     "allowWithName": {
+                      "description": "A stringified regular expression to allow interfaces and object type aliases with the configured name.",
                       "type": "string",
                     },
                   },
@@ -5025,6 +4816,7 @@ You must still type the parameters of the function.",
               {
                 "allowForKnownSafeCalls": [],
                 "allowForKnownSafePromises": [],
+                "checkThenables": false,
                 "ignoreIIFE": false,
                 "ignoreVoid": true,
               },
@@ -5052,6 +4844,7 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allowForKnownSafeCalls": {
+                      "description": "Type specifiers of functions whose calls are safe to float.",
                       "items": {
                         "oneOf": [
                           {
@@ -5162,6 +4955,7 @@ You must still type the parameters of the function.",
                       "type": "array",
                     },
                     "allowForKnownSafePromises": {
+                      "description": "Type specifiers that are known to be safe to float.",
                       "items": {
                         "oneOf": [
                           {
@@ -5271,6 +5065,10 @@ You must still type the parameters of the function.",
                       },
                       "type": "array",
                     },
+                    "checkThenables": {
+                      "description": "Whether to check all "Thenable"s, not just the built-in Promise type.",
+                      "type": "boolean",
+                    },
                     "ignoreIIFE": {
                       "description": "Whether to ignore async IIFEs (Immediately Invoked Function Expressions).",
                       "type": "boolean",
@@ -5361,9 +5159,11 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "ignoreParameters": {
+                      "description": "Whether to ignore function parameters.",
                       "type": "boolean",
                     },
                     "ignoreProperties": {
+                      "description": "Whether to ignore class properties.",
                       "type": "boolean",
                     },
                   },
@@ -5432,9 +5232,11 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allowAsThisParameter": {
+                      "description": "Whether a \`this\` parameter of a function may be \`void\`.",
                       "type": "boolean",
                     },
                     "allowInGenericTypeArguments": {
+                      "description": "Whether \`void\` can be used as a valid value for generic type parameters.",
                       "oneOf": [
                         {
                           "type": "boolean",
@@ -5554,15 +5356,19 @@ You must still type the parameters of the function.",
                       "type": "boolean",
                     },
                     "ignoreEnums": {
+                      "description": "Whether enums used in TypeScript are considered okay.",
                       "type": "boolean",
                     },
                     "ignoreNumericLiteralTypes": {
+                      "description": "Whether numbers used in TypeScript numeric literal types are considered okay.",
                       "type": "boolean",
                     },
                     "ignoreReadonlyClassProperties": {
+                      "description": "Whether \`readonly\` class properties are considered okay.",
                       "type": "boolean",
                     },
                     "ignoreTypeIndexes": {
+                      "description": "Whether numbers used to index types are okay.",
                       "type": "boolean",
                     },
                   },
@@ -5598,6 +5404,7 @@ You must still type the parameters of the function.",
                   "properties": {
                     "checkNever": {
                       "default": false,
+                      "description": "Whether to suggest removing \`void\` when the argument has type \`never\`.",
                       "type": "boolean",
                     },
                   },
@@ -5645,6 +5452,7 @@ You must still type the parameters of the function.",
                 "spread": "Expected a non-Promise value to be spreaded in an object.",
                 "voidReturnArgument": "Promise returned in function argument where a void return was expected.",
                 "voidReturnAttribute": "Promise-returning function provided to attribute where a void return was expected.",
+                "voidReturnInheritedMethod": "Promise-returning method provided where a void return was expected by extended/implemented type '{{ heritageTypeName }}'.",
                 "voidReturnProperty": "Promise-returning function provided to property where a void return was expected.",
                 "voidReturnReturnValue": "Promise-returning function provided to return value where a void return was expected.",
                 "voidReturnVariable": "Promise-returning function provided to variable where a void return was expected.",
@@ -5657,6 +5465,7 @@ You must still type the parameters of the function.",
                       "type": "boolean",
                     },
                     "checksSpreads": {
+                      "description": "Whether to warn when \`...\` spreading a \`Promise\`.",
                       "type": "boolean",
                     },
                     "checksVoidReturn": {
@@ -5668,18 +5477,27 @@ You must still type the parameters of the function.",
                           "additionalProperties": false,
                           "properties": {
                             "arguments": {
+                              "description": "Disables checking an asynchronous function passed as argument where the parameter type expects a function that returns \`void\`.",
                               "type": "boolean",
                             },
                             "attributes": {
+                              "description": "Disables checking an asynchronous function passed as a JSX attribute expected to be a function that returns \`void\`.",
+                              "type": "boolean",
+                            },
+                            "inheritedMethods": {
+                              "description": "Disables checking an asynchronous method in a type that extends or implements another type expecting that method to return \`void\`.",
                               "type": "boolean",
                             },
                             "properties": {
+                              "description": "Disables checking an asynchronous function passed as an object property expected to be a function that returns \`void\`.",
                               "type": "boolean",
                             },
                             "returns": {
+                              "description": "Disables checking an asynchronous function returned in a function whose return type is a function that returns \`void\`.",
                               "type": "boolean",
                             },
                             "variables": {
+                              "description": "Disables checking an asynchronous function used as a variable whose return type is a function that returns \`void\`.",
                               "type": "boolean",
                             },
                           },
@@ -5825,9 +5643,11 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "builtinGlobals": {
+                      "description": "Whether to report shadowing of built-in global variables.",
                       "type": "boolean",
                     },
                     "ignoreDeclarationMerge": {
+                      "description": "Whether to ignore declaration merges between certain TypeScript declaration types.",
                       "type": "boolean",
                     },
                   },
@@ -5848,6 +5668,7 @@ You must still type the parameters of the function.",
                 "url": "https://typescript-eslint.io/rules/no-redundant-type-constituents",
               },
               "messages": {
+                "errorTypeOverrides": "'{{typeName}}' is an 'error' type that acts as 'any' and overrides all other types in this {{container}} type.",
                 "literalOverridden": "{{literal}} is overridden by {{primitive}} in this union type.",
                 "overridden": "'{{typeName}}' is overridden by other types in this {{container}} type.",
                 "overrides": "'{{typeName}}' overrides all other types in this {{container}} type.",
@@ -6078,10 +5899,11 @@ You must still type the parameters of the function.",
                                       "minLength": 1,
                                       "type": "string",
                                     },
+                                    "regex": {
+                                      "type": "string",
+                                    },
                                   },
-                                  "required": [
-                                    "group",
-                                  ],
+                                  "required": undefined,
                                   "type": "object",
                                 },
                                 "type": "array",
@@ -6199,15 +6021,18 @@ You must still type the parameters of the function.",
                   "additionalProperties": false,
                   "properties": {
                     "allow": {
+                      "description": "Identifier names for which shadowing is allowed.",
                       "items": {
                         "type": "string",
                       },
                       "type": "array",
                     },
                     "builtinGlobals": {
+                      "description": "Whether to report shadowing of built-in global variables.",
                       "type": "boolean",
                     },
                     "hoist": {
+                      "description": "Whether to report shadowing before outer functions or variables are defined.",
                       "enum": [
                         "all",
                         "functions",
@@ -6216,12 +6041,15 @@ You must still type the parameters of the function.",
                       "type": "string",
                     },
                     "ignoreFunctionTypeParameterNameValueShadow": {
+                      "description": "Whether to ignore function parameters named the same as a variable.",
                       "type": "boolean",
                     },
                     "ignoreOnInitialization": {
+                      "description": "Whether to ignore the variable initializers when the shadowed variable is presumably still unitialized.",
                       "type": "boolean",
                     },
                     "ignoreTypeValueShadow": {
+                      "description": "Whether to ignore types named the same as a variable.",
                       "type": "boolean",
                     },
                   },
@@ -6447,6 +6275,21 @@ You must still type the parameters of the function.",
               "type": "suggestion",
             },
           },
+          "no-unnecessary-parameter-property-assignment": {
+            "create": [Function],
+            "defaultOptions": [],
+            "meta": {
+              "docs": {
+                "description": "Disallow unnecessary assignment of constructor property parameter",
+                "url": "https://typescript-eslint.io/rules/no-unnecessary-parameter-property-assignment",
+              },
+              "messages": {
+                "unnecessaryAssign": "This assignment is unnecessary since it is already assigned by a parameter property.",
+              },
+              "schema": [],
+              "type": "suggestion",
+            },
+          },
           "no-unnecessary-qualifier": {
             "create": [Function],
             "defaultOptions": [],
@@ -6558,12 +6401,13 @@ You must still type the parameters of the function.",
             "defaultOptions": [],
             "meta": {
               "docs": {
-                "description": "Disallow type parameters that only appear once",
+                "description": "Disallow type parameters that aren't used multiple times",
+                "recommended": "strict",
                 "requiresTypeChecking": true,
                 "url": "https://typescript-eslint.io/rules/no-unnecessary-type-parameters",
               },
               "messages": {
-                "sole": "Type parameter {{name}} is used only once.",
+                "sole": "Type parameter {{name}} is {{uses}} in the {{descriptor}} signature.",
               },
               "schema": [],
               "type": "problem",
@@ -6623,7 +6467,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                 "url": "https://typescript-eslint.io/rules/no-unsafe-call",
               },
               "messages": {
-                "unsafeCall": "Unsafe call of an \`any\` typed value.",
+                "unsafeCall": "Unsafe call of an {{type}} typed value.",
                 "unsafeCallThis": "Unsafe call of an \`any\` typed value. \`this\` is typed as \`any\`.
 You can try to fix this by turning on the \`noImplicitThis\` compiler option, or adding a \`this\` parameter to the function.",
                 "unsafeNew": "Unsafe construction of an any type value.",
@@ -6719,9 +6563,9 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                 "url": "https://typescript-eslint.io/rules/no-unsafe-return",
               },
               "messages": {
-                "unsafeReturn": "Unsafe return of an {{type}} typed value.",
+                "unsafeReturn": "Unsafe return of a value of type {{type}}.",
                 "unsafeReturnAssignment": "Unsafe return of type \`{{sender}}\` from function with return type \`{{receiver}}\`.",
-                "unsafeReturnThis": "Unsafe return of an \`{{type}}\` typed value. \`this\` is typed as \`any\`.
+                "unsafeReturnThis": "Unsafe return of a value of type \`{{type}}\`. \`this\` is typed as \`any\`.
 You can try to fix this by turning on the \`noImplicitThis\` compiler option, or adding a \`this\` parameter to the function.",
               },
               "schema": [],
@@ -6823,6 +6667,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       "additionalProperties": false,
                       "properties": {
                         "args": {
+                          "description": "Whether to check all, some, or no arguments.",
                           "enum": [
                             "all",
                             "after-used",
@@ -6831,9 +6676,11 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                           "type": "string",
                         },
                         "argsIgnorePattern": {
+                          "description": "Regular expressions of argument names to not check for usage.",
                           "type": "string",
                         },
                         "caughtErrors": {
+                          "description": "Whether to check catch block arguments.",
                           "enum": [
                             "all",
                             "none",
@@ -6841,21 +6688,27 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                           "type": "string",
                         },
                         "caughtErrorsIgnorePattern": {
+                          "description": "Regular expressions of catch block argument names to not check for usage.",
                           "type": "string",
                         },
                         "destructuredArrayIgnorePattern": {
+                          "description": "Regular expressions of destructured array variable names to not check for usage.",
                           "type": "string",
                         },
                         "ignoreClassWithStaticInitBlock": {
+                          "description": "Whether to ignore classes with at least one static initialization block.",
                           "type": "boolean",
                         },
                         "ignoreRestSiblings": {
+                          "description": "Whether to ignore sibling properties in \`...\` destructurings.",
                           "type": "boolean",
                         },
                         "reportUsedIgnorePattern": {
+                          "description": "Whether to report variables that match any of the valid ignore pattern options if they have been used.",
                           "type": "boolean",
                         },
                         "vars": {
+                          "description": "Whether to check all variables or only locally-declared variables.",
                           "enum": [
                             "all",
                             "local",
@@ -6863,6 +6716,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                           "type": "string",
                         },
                         "varsIgnorePattern": {
+                          "description": "Regular expressions of variable names to not check for usage.",
                           "type": "string",
                         },
                       },
@@ -6912,21 +6766,27 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                           "type": "boolean",
                         },
                         "classes": {
+                          "description": "Whether to ignore references to class declarations.",
                           "type": "boolean",
                         },
                         "enums": {
+                          "description": "Whether to check references to enums.",
                           "type": "boolean",
                         },
                         "functions": {
+                          "description": "Whether to ignore references to function declarations.",
                           "type": "boolean",
                         },
                         "ignoreTypeReferences": {
+                          "description": "Whether to ignore type references, such as in type annotations and assertions.",
                           "type": "boolean",
                         },
                         "typedefs": {
+                          "description": "Whether to check references to types.",
                           "type": "boolean",
                         },
                         "variables": {
+                          "description": "Whether to ignore references to variables.",
                           "type": "boolean",
                         },
                       },
@@ -7070,9 +6930,11 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allowThrowingAny": {
+                      "description": "Whether to always allow throwing values typed as \`any\`.",
                       "type": "boolean",
                     },
                     "allowThrowingUnknown": {
+                      "description": "Whether to always allow throwing values typed as \`unknown\`.",
                       "type": "boolean",
                     },
                   },
@@ -7118,12 +6980,14 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allow": {
+                      "description": "Whether to allow certain kinds of properties to be ignored.",
                       "items": {
                         "$ref": "#/items/0/$defs/modifier",
                       },
                       "type": "array",
                     },
                     "prefer": {
+                      "description": "Whether to prefer class properties or parameter properties.",
                       "enum": [
                         "class-property",
                         "parameter-property",
@@ -7357,6 +7221,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allowBitwiseExpressions": {
+                      "description": "Whether to allow using bitwise expressions in enum initializers.",
                       "type": "boolean",
                     },
                   },
@@ -7418,15 +7283,19 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing": {
+                      "description": "Unless this is set to \`true\`, the rule will error on every file whose \`tsconfig.json\` does _not_ have the \`strictNullChecks\` compiler option (or \`strict\`) set to \`true\`.",
                       "type": "boolean",
                     },
                     "ignoreConditionalTests": {
+                      "description": "Whether to ignore cases that are located within a conditional test.",
                       "type": "boolean",
                     },
                     "ignoreMixedLogicalExpressions": {
+                      "description": "Whether to ignore any logical or expressions that are part of a mixed logical expression (with \`&&\`).",
                       "type": "boolean",
                     },
                     "ignorePrimitives": {
+                      "description": "Whether to ignore all (\`true\`) or some (an object with properties) primitive types.",
                       "oneOf": [
                         {
                           "properties": {
@@ -7454,6 +7323,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       ],
                     },
                     "ignoreTernaryTests": {
+                      "description": "Whether to ignore any ternary expressions that could be simplified by using the nullish coalescing operator.",
                       "type": "boolean",
                     },
                   },
@@ -7556,6 +7426,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allowEmptyReject": {
+                      "description": "Whether to allow calls to \`Promise.reject()\` with no arguments.",
                       "type": "boolean",
                     },
                   },
@@ -7587,6 +7458,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "onlyInlineLambdas": {
+                      "description": "Whether to restrict checking only to members immediately assigned a lambda value.",
                       "type": "boolean",
                     },
                   },
@@ -7620,6 +7492,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allow": {
+                      "description": "An array of type specifiers to ignore.",
                       "items": {
                         "oneOf": [
                           {
@@ -7730,12 +7603,15 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       "type": "array",
                     },
                     "checkParameterProperties": {
+                      "description": "Whether to check class parameter properties.",
                       "type": "boolean",
                     },
                     "ignoreInferredTypes": {
+                      "description": "Whether to ignore parameters which don't explicitly specify a type.",
                       "type": "boolean",
                     },
                     "treatMethodsAsReadonly": {
+                      "description": "Whether to treat all mutable methods as though they are readonly.",
                       "type": "boolean",
                     },
                   },
@@ -7895,15 +7771,19 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       "type": "array",
                     },
                     "checkArrowFunctions": {
+                      "description": "Whether to check arrow functions.",
                       "type": "boolean",
                     },
                     "checkFunctionDeclarations": {
+                      "description": "Whether to check standalone function declarations.",
                       "type": "boolean",
                     },
                     "checkFunctionExpressions": {
+                      "description": "Whether to check inline function expressions",
                       "type": "boolean",
                     },
                     "checkMethodDeclarations": {
+                      "description": "Whether to check methods on classes and object literals.",
                       "type": "boolean",
                     },
                   },
@@ -7955,8 +7835,10 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                 "requiresTypeChecking": true,
                 "url": "https://typescript-eslint.io/rules/require-await",
               },
+              "hasSuggestions": true,
               "messages": {
                 "missingAwait": "{{name}} has no 'await' expression.",
+                "removeAsync": "Remove 'async'.",
               },
               "schema": [],
               "type": "suggestion",
@@ -8113,6 +7995,11 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
               "docs": {
                 "description": "Enforce consistent awaiting of returned promises",
                 "extendsBaseRule": "no-return-await",
+                "recommended": {
+                  "strict": [
+                    "error-handling-correctness-only",
+                  ],
+                },
                 "requiresTypeChecking": true,
                 "url": "https://typescript-eslint.io/rules/return-await",
               },
@@ -8127,10 +8014,35 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
               },
               "schema": [
                 {
-                  "enum": [
-                    "in-try-catch",
-                    "always",
-                    "never",
+                  "oneOf": [
+                    {
+                      "description": "Requires that all returned promises be awaited.",
+                      "enum": [
+                        "always",
+                      ],
+                      "type": "string",
+                    },
+                    {
+                      "description": "In error-handling contexts, the rule enforces that returned promises must be awaited. In ordinary contexts, the rule does not enforce any particular behavior around whether returned promises are awaited.",
+                      "enum": [
+                        "error-handling-correctness-only",
+                      ],
+                      "type": "string",
+                    },
+                    {
+                      "description": "In error-handling contexts, the rule enforces that returned promises must be awaited. In ordinary contexts, the rule enforces that returned promises _must not_ be awaited.",
+                      "enum": [
+                        "in-try-catch",
+                      ],
+                      "type": "string",
+                    },
+                    {
+                      "description": "Disallows awaiting any returned promises.",
+                      "enum": [
+                        "never",
+                      ],
+                      "type": "string",
+                    },
                   ],
                   "type": "string",
                 },
@@ -8275,30 +8187,38 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "allowAny": {
+                      "description": "Whether to allow \`any\` in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNullableBoolean": {
+                      "description": "Whether to allow nullable \`boolean\`s in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNullableEnum": {
+                      "description": "Whether to allow nullable \`enum\`s in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNullableNumber": {
+                      "description": "Whether to allow nullable \`number\`s in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNullableObject": {
+                      "description": "Whether to allow nullable \`object\`s in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNullableString": {
+                      "description": "Whether to allow nullable \`string\`s in a boolean context.",
                       "type": "boolean",
                     },
                     "allowNumber": {
+                      "description": "Whether to allow \`number\` in a boolean context.",
                       "type": "boolean",
                     },
                     "allowRuleToRunWithoutStrictNullChecksIKnowWhatIAmDoing": {
                       "type": "boolean",
                     },
                     "allowString": {
+                      "description": "Whether to allow \`string\` in a boolean context.",
                       "type": "boolean",
                     },
                   },
@@ -8370,6 +8290,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "lib": {
+                      "description": "What to enforce for \`/// <reference lib="..." />\` references.",
                       "enum": [
                         "always",
                         "never",
@@ -8377,6 +8298,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       "type": "string",
                     },
                     "path": {
+                      "description": "What to enforce for \`/// <reference path="..." />\` references.",
                       "enum": [
                         "always",
                         "never",
@@ -8384,6 +8306,7 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                       "type": "string",
                     },
                     "types": {
+                      "description": "What to enforce for \`/// <reference types="..." />\` references.",
                       "enum": [
                         "always",
                         "never",
@@ -8426,27 +8349,35 @@ You can try to fix this by turning on the \`noImplicitThis\` compiler option, or
                   "additionalProperties": false,
                   "properties": {
                     "arrayDestructuring": {
+                      "description": "Whether to enforce type annotations on variables declared using array destructuring.",
                       "type": "boolean",
                     },
                     "arrowParameter": {
+                      "description": "Whether to enforce type annotations for parameters of arrow functions.",
                       "type": "boolean",
                     },
                     "memberVariableDeclaration": {
+                      "description": "Whether to enforce type annotations on member variables of classes.",
                       "type": "boolean",
                     },
                     "objectDestructuring": {
+                      "description": "Whether to enforce type annotations on variables declared using object destructuring.",
                       "type": "boolean",
                     },
                     "parameter": {
+                      "description": "Whether to enforce type annotations for parameters of functions and methods.",
                       "type": "boolean",
                     },
                     "propertyDeclaration": {
+                      "description": "Whether to enforce type annotations for properties of interfaces and types.",
                       "type": "boolean",
                     },
                     "variableDeclaration": {
+                      "description": "Whether to enforce type annotations for variable declarations, excluding array and object destructuring.",
                       "type": "boolean",
                     },
                     "variableDeclarationIgnoreFunction": {
+                      "description": "Whether to ignore variable declarations for non-arrow and arrow functions.",
                       "type": "boolean",
                     },
                   },
@@ -8528,7 +8459,7 @@ If your function does not access \`this\`, you can annotate it with \`this: void
             "defaultOptions": [],
             "meta": {
               "docs": {
-                "description": "Enforce typing arguments in \`.catch()\` callbacks as \`unknown\`",
+                "description": "Enforce typing arguments in Promise rejection callbacks as \`unknown\`",
                 "recommended": "strict",
                 "requiresTypeChecking": true,
                 "url": "https://typescript-eslint.io/rules/use-unknown-in-catch-callback-variable",
@@ -8536,12 +8467,11 @@ If your function does not access \`this\`, you can annotate it with \`this: void
               "fixable": "code",
               "hasSuggestions": true,
               "messages": {
-                "addUnknownRestTypeAnnotationSuggestion": "Add an explicit \`: [unknown]\` type annotation to the catch rest variable.",
-                "addUnknownTypeAnnotationSuggestion": "Add an explicit \`: unknown\` type annotation to the catch variable.",
-                "useUnknown": "Prefer the safe \`: unknown\` for a catch callback variable.",
-                "useUnknownArrayDestructuringPattern": "Prefer the safe \`: unknown\` for a catch callback variable. The thrown error may not be iterable.",
-                "useUnknownObjectDestructuringPattern": "Prefer the safe \`: unknown\` for a catch callback variable. The thrown error may be nullable, or may not have the expected shape.",
-                "useUnknownSpreadArgs": "Prefer the safe \`: unknown\` for a catch callback variable. The argument list may contain a handler that does not use \`unknown\` for the catch callback variable.",
+                "addUnknownRestTypeAnnotationSuggestion": "Add an explicit \`: [unknown]\` type annotation to the rejection callback rest variable.",
+                "addUnknownTypeAnnotationSuggestion": "Add an explicit \`: unknown\` type annotation to the rejection callback variable.",
+                "useUnknown": "Prefer the safe \`: unknown\` for a \`{{method}}\`{{append}} callback variable.",
+                "useUnknownArrayDestructuringPattern": "Prefer the safe \`: unknown\` for a \`{{method}}\`{{append}} callback variable. The thrown error may not be iterable.",
+                "useUnknownObjectDestructuringPattern": "Prefer the safe \`: unknown\` for a \`{{method}}\`{{append}} callback variable. The thrown error may be nullable, or may not have the expected shape.",
                 "wrongRestTypeAnnotationSuggestion": "Change existing type annotation to \`: [unknown]\`.",
                 "wrongTypeAnnotationSuggestion": "Change existing type annotation to \`: unknown\`.",
               },
