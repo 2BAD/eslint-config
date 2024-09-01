@@ -1,3 +1,4 @@
+// eslint-disable-next-line n/no-extraneous-import
 import tsParser from '@typescript-eslint/parser'
 import plugin from 'eslint-plugin-import-x'
 
@@ -16,6 +17,9 @@ export const config = [
       'import-x/resolver': {
         typescript: true
       }
+    },
+    rules: {
+      'import-x/no-default-export': 'error'
     }
   }
 ]
