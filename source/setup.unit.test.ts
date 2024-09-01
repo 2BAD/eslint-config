@@ -1,7 +1,7 @@
 import { includeIgnoreFile } from '@eslint/compat'
 import { resolve } from 'node:path'
 import { describe, expect, it, vi } from 'vitest'
-import setup from './setup.ts'
+import { setup } from './setup.ts'
 
 const ignores = ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env']
 
