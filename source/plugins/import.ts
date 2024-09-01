@@ -1,15 +1,25 @@
-import { fixupPluginRules } from '@eslint/compat'
+import tsParser from '@typescript-eslint/parser'
 import plugin from 'eslint-plugin-import-x'
 
 export const config = [
+  plugin.flatConfigs.recommended,
+  plugin.flatConfigs.typescript,
   {
     name: '2bad/eslint-plugin-import',
-    plugins: {
-      // @ts-expect-error old eslint types do not align with v9 eslint types
-      import: fixupPluginRules({ meta: plugin.meta, rules: plugin.rules })
+    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
+    languageOptions: {
+      parser: tsParser,
+      ecmaVersion: 'latest',
+      sourceType: 'module'
     },
+    ignores: ['eslint.config.js'],
     rules: {
       'import/no-unresolved': 'error'
+    },
+    settings: {
+      'import-x/resolver': {
+        typescript: true
+      }
     }
   }
 ]
