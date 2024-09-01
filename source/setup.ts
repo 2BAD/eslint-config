@@ -6,7 +6,8 @@ export const setup = (dirname: string): Linter.Config[] => {
   return [
     {
       name: '2bad/setup/ignore-files',
-      // TODO: remove this when eslint will support .ts configs
+      // TODO: ESLint doesn't yet support .ts config files.
+      // When 'ignores' is the only key in a config object, the patterns are treated as global ignores.
       ignores: [...(includeIgnoreFile(resolve(dirname, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
     },
     {
