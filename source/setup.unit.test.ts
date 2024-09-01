@@ -13,12 +13,41 @@ vi.mock('@eslint/compat', () => ({
 }))
 
 describe('setup', () => {
-  it('should return an array of FlatConfig objects', () => {
-    const dirname = '/some/dir'
+  it('should return an array of FlatConfig objects with correct properties', () => {
+    const dirname = 'eslint-config/source'
 
     const result = setup(dirname)
 
-    expect(result).toMatchSnapshot()
+    expect(result).toBeInstanceOf(Array)
+    expect(result).toHaveLength(4)
+
+    expect(result[0]).toEqual({
+      name: '2bad/setup/ignore-files',
+      ignores: ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env', 'eslint.config.mjs']
+    })
+
+    expect(result[1]).toEqual({
+      name: '2bad/setup/linter-options',
+      linterOptions: {
+        reportUnusedDisableDirectives: 'error'
+      }
+    })
+
+    expect(result[2]).toMatchObject({
+      name: '2bad/setup/language-options',
+      languageOptions: {
+        parserOptions: {
+          projectService: true
+        }
+      }
+    })
+
+    expect(result[2]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
+
+    expect(result[3]).toEqual({
+      name: '2bad/setup/file-extension',
+      files: ['**/*.ts', '**/*.cts', '**.*.mts']
+    })
   })
 
   it('should correctly resolve the .gitignore path', () => {
