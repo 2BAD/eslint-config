@@ -7,9 +7,7 @@ const standardRules = ns.flatMap((config) => {
   if (!config.rules) return {}
 
   // Filter out rules that start with 'n/'
-  const filteredRules = Object.fromEntries(
-    Object.entries(config.rules).filter(([key]) => !key.startsWith('n/') && !key.startsWith('react/'))
-  )
+  const filteredRules = Object.fromEntries(Object.entries(config.rules).filter(([key]) => !key.startsWith('react/')))
 
   if (Object.keys(config.plugins ?? []).includes('@stylistic')) return config
   return { rules: filteredRules }

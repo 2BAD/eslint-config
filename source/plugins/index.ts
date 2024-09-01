@@ -1,5 +1,6 @@
 export { default as import } from './import.ts'
 export { default as jsdoc } from './jsdoc.ts'
 export { default as neostandard } from './neostandard.ts'
+export { default as node } from './node.ts'
 export { default as promise } from './promise.ts'
 export { default as vitest } from './vitest.ts'
