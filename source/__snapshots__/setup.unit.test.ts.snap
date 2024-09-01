@@ -10,8 +10,9 @@ exports[`setup > should return an array of FlatConfig objects 1`] = `
       "**/build",
       "**/coverage",
       "**/.env",
+      "eslint.config.mjs",
     ],
-    "name": "Imported .gitignore patterns",
+    "name": "2bad/setup/ignore-files",
   },
   {
     "linterOptions": {

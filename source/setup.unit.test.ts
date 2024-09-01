@@ -7,7 +7,7 @@ const ignores = ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverag
 
 vi.mock('@eslint/compat', () => ({
   includeIgnoreFile: vi.fn(() => ({
-    name: 'Imported .gitignore patterns',
+    name: '2bad/setup/ignore-files',
     ignores
   }))
 }))
@@ -28,8 +28,8 @@ describe('setup', () => {
 
     expect(includeIgnoreFile).toHaveBeenCalledWith(resolvedPath)
     expect(result[0]).toEqual({
-      name: 'Imported .gitignore patterns',
-      ignores
+      name: '2bad/setup/ignore-files',
+      ignores: ignores.concat(['eslint.config.mjs'])
     })
   })
 

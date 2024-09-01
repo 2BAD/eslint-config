@@ -4,7 +4,11 @@ import { resolve } from 'node:path'
 
 export const setup = (dirname: string): Linter.FlatConfig[] => {
   return [
-    includeIgnoreFile(resolve(dirname, '.gitignore')),
+    {
+      name: '2bad/setup/ignore-files',
+      // TODO: remove this when eslint will support .ts configs
+      ignores: [...(includeIgnoreFile(resolve(dirname, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
+    },
     {
       name: '2bad/setup/linter-options',
       linterOptions: {
