@@ -17,5 +17,3 @@ export const setup = (dirname: string): Linter.FlatConfig[] => {
     }
   ]
 }
-
-export default setup
