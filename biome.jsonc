@@ -15,5 +15,8 @@
       "semicolons": "asNeeded",
       "trailingCommas": "none"
     }
+  },
+  "organizeImports": {
+    "enabled": false
   }
 }
