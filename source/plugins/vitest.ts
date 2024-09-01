@@ -4,7 +4,7 @@ import type { Linter } from 'eslint'
 export const config: Linter.FlatConfig[] = [
   {
     name: '2bad/eslint-plugin-vitest',
-    files: ['source/**.test.ts'],
+    files: ['**/*.test.ts'],
     plugins: {
       plugin
     },
