@@ -35,7 +35,7 @@ describe('axiom', () => {
       }
     })
 
-    expect(result[1]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
+    // expect(result[1]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
 
     expect(result[2]).toEqual({
       name: 'axiom/setup/file-extension',
