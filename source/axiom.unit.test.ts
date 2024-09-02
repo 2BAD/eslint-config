@@ -1,7 +1,7 @@
 import { includeIgnoreFile } from '@eslint/compat'
 import { resolve } from 'node:path'
 import { describe, expect, it, vi } from 'vitest'
-import { setup } from './setup.ts'
+import { axiom } from './axiom.ts'
 
 const ignores = ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env']
 
@@ -12,14 +12,14 @@ vi.mock('@eslint/compat', () => ({
   }))
 }))
 
-describe('setup', () => {
+describe('axiom', () => {
   it('should return an array of FlatConfig objects with correct properties', () => {
-    const dirname = 'eslint-config'
+    const dirname = 'axiom'
 
-    const result = setup(dirname)
+    const result = axiom(dirname)
 
     expect(result).toBeInstanceOf(Array)
-    expect(result).toHaveLength(3)
+    expect(result).toHaveLength(27)
 
     expect(result[0]).toEqual({
       name: 'axiom/setup/ignore-files',
@@ -45,7 +45,7 @@ describe('setup', () => {
 
   it('should correctly resolve the .gitignore path', () => {
     const dirname = '/another/dir'
-    const result = setup(dirname)
+    const result = axiom(dirname)
     const resolvedPath = resolve(dirname, '.gitignore')
 
     expect(includeIgnoreFile).toHaveBeenCalledWith(resolvedPath)
@@ -57,7 +57,7 @@ describe('setup', () => {
 
   it('should include the file-extension object in the result', () => {
     const dirname = '/any/dir'
-    const result = setup(dirname)
+    const result = axiom(dirname)
     const fileExtensionConfig = result.find((config) => config.name === 'axiom/setup/file-extension')
 
     expect(fileExtensionConfig).toBeDefined()

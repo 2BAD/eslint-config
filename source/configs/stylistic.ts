@@ -1,8 +1,8 @@
 import type { Linter } from 'eslint'
 
-const axiom: Linter.Config[] = [
+const stylistic: Linter.Config[] = [
   {
-    name: 'axiom/axiom',
+    name: 'axiom/rules/stylistic',
     rules: {
       '@stylistic/space-before-function-paren': 'off',
       '@stylistic/lines-between-class-members': 'off'
@@ -10,4 +10,4 @@ const axiom: Linter.Config[] = [
   }
 ]
 
-export default axiom
+export default stylistic
