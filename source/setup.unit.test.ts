@@ -19,21 +19,14 @@ describe('setup', () => {
     const result = setup(dirname)
 
     expect(result).toBeInstanceOf(Array)
-    expect(result).toHaveLength(4)
+    expect(result).toHaveLength(3)
 
     expect(result[0]).toEqual({
       name: 'axiom/setup/ignore-files',
       ignores: ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env', 'eslint.config.mjs']
     })
 
-    expect(result[1]).toEqual({
-      name: 'axiom/setup/linter-options',
-      linterOptions: {
-        reportUnusedDisableDirectives: 'error'
-      }
-    })
-
-    expect(result[2]).toMatchObject({
+    expect(result[1]).toMatchObject({
       name: 'axiom/setup/language-options',
       languageOptions: {
         parserOptions: {
@@ -42,11 +35,11 @@ describe('setup', () => {
       }
     })
 
-    expect(result[2]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
+    expect(result[1]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
 
-    expect(result[3]).toEqual({
+    expect(result[2]).toEqual({
       name: 'axiom/setup/file-extension',
-      files: ['**/*.ts', '**/*.cts', '**.*.mts']
+      files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}']
     })
   })
 
@@ -62,23 +55,12 @@ describe('setup', () => {
     })
   })
 
-  it('should include the linter-options object in the result', () => {
-    const dirname = '/any/dir'
-    const result = setup(dirname)
-    const linterOptionsConfig = result.find((config) => config.name === 'axiom/setup/linter-options')
-
-    expect(linterOptionsConfig).toBeDefined()
-    expect(linterOptionsConfig?.linterOptions).toEqual({
-      reportUnusedDisableDirectives: 'error'
-    })
-  })
-
   it('should include the file-extension object in the result', () => {
     const dirname = '/any/dir'
     const result = setup(dirname)
     const fileExtensionConfig = result.find((config) => config.name === 'axiom/setup/file-extension')
 
     expect(fileExtensionConfig).toBeDefined()
-    expect(fileExtensionConfig?.files).toEqual(['**/*.ts', '**/*.cts', '**.*.mts'])
+    expect(fileExtensionConfig?.files).toEqual(['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'])
   })
 })

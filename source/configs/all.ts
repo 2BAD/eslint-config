@@ -4,9 +4,10 @@ import ts from 'typescript-eslint'
 
 const recommended: Linter.Config[] = [
   {
-    name: 'axiom/all'
+    name: 'axiom/rules/all',
+    rules: js.configs.all.rules
   },
-  js.configs.all,
+
   // eslint-disable-next-line import-x/no-named-as-default-member
   ...(ts.configs.all as Linter.Config[])
 ]

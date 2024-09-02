@@ -10,24 +10,19 @@ export const setup = (dirname: string): Linter.Config[] => {
       // When 'ignores' is the only key in a config object, the patterns are treated as global ignores.
       ignores: [...(includeIgnoreFile(resolve(dirname, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
     },
-    {
-      name: 'axiom/setup/linter-options',
-      linterOptions: {
-        reportUnusedDisableDirectives: 'error'
-      }
-    },
+
     {
       name: 'axiom/setup/language-options',
       languageOptions: {
         parserOptions: {
           projectService: true,
-          tsconfigRootDir: import.meta.dirname
+          tsconfigRootDir: resolve(import.meta.dirname, '..')
         }
       }
     },
     {
       name: 'axiom/setup/file-extension',
-      files: ['**/*.ts', '**/*.cts', '**.*.mts']
+      files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}']
     }
   ]
 }

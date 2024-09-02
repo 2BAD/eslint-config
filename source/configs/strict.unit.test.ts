@@ -7,7 +7,7 @@ describe('strict', () => {
   })
 
   it('should include the 2bad config as the first element', () => {
-    expect(strict[0]).toStrictEqual({ name: 'axiom/strict' })
+    expect(strict[0]?.name).toStrictEqual('axiom/rules/strict')
   })
 
   it('should include the js all config', () => {
@@ -15,7 +15,7 @@ describe('strict', () => {
   })
 
   it('should include the ts strict configs', () => {
-    const tsConfigs = strict.slice(2)
+    const tsConfigs = strict.slice(1)
 
     expect(tsConfigs.some((config) => config.name === 'typescript-eslint/strict')).toBe(true)
   })

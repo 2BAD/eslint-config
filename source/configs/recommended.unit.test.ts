@@ -7,7 +7,7 @@ describe('recommended', () => {
   })
 
   it('should include the 2bad config as the first element', () => {
-    expect(recommended[0]).toStrictEqual({ name: 'axiom/recommended' })
+    expect(recommended[0]?.name).toStrictEqual('axiom/rules/recommended')
   })
 
   it('should include the js recommended config', () => {
