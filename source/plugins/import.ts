@@ -4,10 +4,12 @@ import plugin from 'eslint-plugin-import-x'
 
 export const config = [
   plugin.flatConfigs.recommended,
-  plugin.flatConfigs.typescript,
   {
-    name: 'axiom/eslint-plugin-import',
-    files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
+    name: 'import-x/typescript',
+    ...plugin.flatConfigs.typescript
+  },
+  {
+    name: 'axiom/plugin/import',
     languageOptions: {
       parser: tsParser,
       ecmaVersion: 'latest',
