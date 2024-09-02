@@ -4,7 +4,7 @@ import plugin from 'eslint-plugin-promise'
 
 export const config: Linter.Config[] = [
   {
-    name: '2bad/eslint-plugin-promise',
+    name: 'axiom/eslint-plugin-promise',
     ...plugin.configs['flat/recommended'],
     rules: {
       'promise/prefer-await-to-callbacks': 'error',

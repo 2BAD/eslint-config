@@ -3,7 +3,7 @@ import type { Linter } from 'eslint'
 
 export const config: Linter.Config[] = [
   {
-    name: '2bad/eslint-plugin-vitest',
+    name: 'axiom/eslint-plugin-vitest',
     ...plugin.configs.all,
     ...plugin.configs.env,
     files: ['**/*.test.ts'],

@@ -5,19 +5,19 @@ import { resolve } from 'node:path'
 export const setup = (dirname: string): Linter.Config[] => {
   return [
     {
-      name: '2bad/setup/ignore-files',
+      name: 'axiom/setup/ignore-files',
       // TODO: ESLint doesn't yet support .ts config files.
       // When 'ignores' is the only key in a config object, the patterns are treated as global ignores.
       ignores: [...(includeIgnoreFile(resolve(dirname, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
     },
     {
-      name: '2bad/setup/linter-options',
+      name: 'axiom/setup/linter-options',
       linterOptions: {
         reportUnusedDisableDirectives: 'error'
       }
     },
     {
-      name: '2bad/setup/language-options',
+      name: 'axiom/setup/language-options',
       languageOptions: {
         parserOptions: {
           projectService: true,
@@ -26,7 +26,7 @@ export const setup = (dirname: string): Linter.Config[] => {
       }
     },
     {
-      name: '2bad/setup/file-extension',
+      name: 'axiom/setup/file-extension',
       files: ['**/*.ts', '**/*.cts', '**.*.mts']
     }
   ]

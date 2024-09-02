@@ -6,7 +6,7 @@ export const config = [
   plugin.flatConfigs.recommended,
   plugin.flatConfigs.typescript,
   {
-    name: '2bad/eslint-plugin-import',
+    name: 'axiom/eslint-plugin-import',
     files: ['**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}'],
     languageOptions: {
       parser: tsParser,

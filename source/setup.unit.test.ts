@@ -7,7 +7,7 @@ const ignores = ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverag
 
 vi.mock('@eslint/compat', () => ({
   includeIgnoreFile: vi.fn(() => ({
-    name: '2bad/setup/ignore-files',
+    name: 'axiom/setup/ignore-files',
     ignores
   }))
 }))
@@ -22,19 +22,19 @@ describe('setup', () => {
     expect(result).toHaveLength(4)
 
     expect(result[0]).toEqual({
-      name: '2bad/setup/ignore-files',
+      name: 'axiom/setup/ignore-files',
       ignores: ['**/logs', '**/tmp', '**/node_modules', '**/build', '**/coverage', '**/.env', 'eslint.config.mjs']
     })
 
     expect(result[1]).toEqual({
-      name: '2bad/setup/linter-options',
+      name: 'axiom/setup/linter-options',
       linterOptions: {
         reportUnusedDisableDirectives: 'error'
       }
     })
 
     expect(result[2]).toMatchObject({
-      name: '2bad/setup/language-options',
+      name: 'axiom/setup/language-options',
       languageOptions: {
         parserOptions: {
           projectService: true
@@ -45,7 +45,7 @@ describe('setup', () => {
     expect(result[2]?.languageOptions?.parserOptions?.['tsconfigRootDir']).toContain(dirname)
 
     expect(result[3]).toEqual({
-      name: '2bad/setup/file-extension',
+      name: 'axiom/setup/file-extension',
       files: ['**/*.ts', '**/*.cts', '**.*.mts']
     })
   })
@@ -57,7 +57,7 @@ describe('setup', () => {
 
     expect(includeIgnoreFile).toHaveBeenCalledWith(resolvedPath)
     expect(result[0]).toEqual({
-      name: '2bad/setup/ignore-files',
+      name: 'axiom/setup/ignore-files',
       ignores: ignores.concat(['eslint.config.mjs'])
     })
   })
@@ -65,7 +65,7 @@ describe('setup', () => {
   it('should include the linter-options object in the result', () => {
     const dirname = '/any/dir'
     const result = setup(dirname)
-    const linterOptionsConfig = result.find((config) => config.name === '2bad/setup/linter-options')
+    const linterOptionsConfig = result.find((config) => config.name === 'axiom/setup/linter-options')
 
     expect(linterOptionsConfig).toBeDefined()
     expect(linterOptionsConfig?.linterOptions).toEqual({
@@ -76,7 +76,7 @@ describe('setup', () => {
   it('should include the file-extension object in the result', () => {
     const dirname = '/any/dir'
     const result = setup(dirname)
-    const fileExtensionConfig = result.find((config) => config.name === '2bad/setup/file-extension')
+    const fileExtensionConfig = result.find((config) => config.name === 'axiom/setup/file-extension')
 
     expect(fileExtensionConfig).toBeDefined()
     expect(fileExtensionConfig?.files).toEqual(['**/*.ts', '**/*.cts', '**.*.mts'])

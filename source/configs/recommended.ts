@@ -4,7 +4,7 @@ import ts from 'typescript-eslint'
 
 const recommended: Linter.Config[] = [
   {
-    name: '2bad/recommended'
+    name: 'axiom/recommended'
   },
   js.configs.recommended,
   // eslint-disable-next-line import-x/no-named-as-default-member

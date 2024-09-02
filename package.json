@@ -1,5 +1,5 @@
 {
-  "name": "@2bad/eslint-config",
+  "name": "@2bad/axiom",
   "version": "1.0.0-beta.2",
   "description": "",
   "keywords": [
@@ -7,13 +7,13 @@
     "linter",
     "typescript"
   ],
-  "homepage": "https://github.com/2BAD/eslint-config#readme",
+  "homepage": "https://github.com/2BAD/axiom#readme",
   "bugs": {
-    "url": "https://github.com/2BAD/eslint-config/issues"
+    "url": "https://github.com/2BAD/axiom/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/2BAD/eslint-config.git"
+    "url": "git+https://github.com/2BAD/axiom.git"
   },
   "license": "MIT",
   "author": "2BAD (https://github.com/2BAD)",

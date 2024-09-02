@@ -207,7 +207,7 @@ exports[`all > should include the js all config 1`] = `
 exports[`all > should match the snapshot 1`] = `
 [
   {
-    "name": "2bad/all",
+    "name": "axiom/all",
   },
   {
     "rules": {
@@ -415,7 +415,7 @@ exports[`all > should match the snapshot 1`] = `
       "parser": {
         "meta": {
           "name": "typescript-eslint/parser",
-          "version": "8.3.1-alpha.10",
+          "version": "8.3.1-alpha.11",
         },
         "parseForESLint": [Function],
       },
@@ -1166,7 +1166,7 @@ exports[`all > should match the snapshot 1`] = `
         },
         "meta": {
           "name": "@typescript-eslint/eslint-plugin",
-          "version": "8.3.1-alpha.10",
+          "version": "8.3.1-alpha.11",
         },
         "rules": {
           "adjacent-overload-signatures": {

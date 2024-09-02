@@ -7,7 +7,7 @@ describe('strict', () => {
   })
 
   it('should include the 2bad config as the first element', () => {
-    expect(strict[0]).toStrictEqual({ name: '2bad/strict' })
+    expect(strict[0]).toStrictEqual({ name: 'axiom/strict' })
   })
 
   it('should include the js all config', () => {
