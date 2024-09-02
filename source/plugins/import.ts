@@ -3,13 +3,16 @@ import tsParser from '@typescript-eslint/parser'
 import plugin from 'eslint-plugin-import-x'
 
 export const config = [
-  plugin.flatConfigs.recommended,
   {
-    name: 'import-x/typescript',
-    ...plugin.flatConfigs.typescript
+    ...plugin.flatConfigs.recommended,
+    name: 'eslint/plugin/import/recommended'
   },
   {
-    name: 'axiom/plugin/import',
+    ...plugin.flatConfigs.typescript,
+    name: 'eslint/plugin/import/typescript'
+  },
+  {
+    name: 'axiom/plugin/import/overrides',
     languageOptions: {
       parser: tsParser,
       ecmaVersion: 'latest',
