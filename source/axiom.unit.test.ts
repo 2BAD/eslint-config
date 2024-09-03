@@ -19,7 +19,7 @@ describe('axiom', () => {
     const result = axiom(dirname)
 
     expect(result).toBeInstanceOf(Array)
-    expect(result).toHaveLength(27)
+    expect(result).toHaveLength(28)
 
     expect(result[0]).toEqual({
       name: 'axiom/setup/ignore-files',

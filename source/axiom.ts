@@ -1,6 +1,7 @@
 import { includeIgnoreFile } from '@eslint/compat'
 import type { Linter } from 'eslint'
 import { resolve } from 'node:path'
+import axiomRules from './configs/axiom.ts'
 import strict from './configs/strict.ts'
 import stylistic from './configs/stylistic.ts'
 import * as plugins from './plugins/index.ts'
@@ -45,6 +46,7 @@ export const axiom = (dirname: string): Linter.Config[] => {
     },
     strict,
     ...Object.values(plugins),
-    stylistic
+    stylistic,
+    axiomRules
   ].flat()
 }
