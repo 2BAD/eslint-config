@@ -29,7 +29,7 @@
     ".": "./build/index.js",
     "./plugins": "./build/plugins/index.js"
   },
-  "typings": "./build/index.d.ts",
+  "types": "./build/index.d.ts",
   "files": [
     "build"
   ],
