@@ -9,7 +9,7 @@ import * as plugins from './plugins/index.ts'
 /**
  * Generates an array of ESLint configuration objects for the Axiom setup.
  *
- * @param dirname - The directory name to use as a base for resolving paths.
+ * @param path - The directory path to use as a base for resolving configurations.
  * @returns An array of ESLint configuration objects.
  *
  * @description
@@ -23,20 +23,20 @@ import * as plugins from './plugins/index.ts'
  * @example
  * export default axiom(import.meta.dirname);
  */
-export const axiom = (dirname: string): Linter.Config[] => {
+export const axiom = (path: string): Linter.Config[] => {
   return [
     {
       name: 'axiom/setup/ignore-files',
       // TODO: ESLint doesn't yet support .ts config files.
       // When 'ignores' is the only key in a config object, the patterns are treated as global ignores.
-      ignores: [...(includeIgnoreFile(resolve(dirname, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
+      ignores: [...(includeIgnoreFile(resolve(path, '.gitignore'))?.ignores ?? []), 'eslint.config.mjs']
     },
     {
       name: 'axiom/setup/language-options',
       languageOptions: {
         parserOptions: {
           projectService: true,
-          tsconfigRootDir: resolve(import.meta.dirname, '..')
+          tsconfigRootDir: path
         }
       }
     },
