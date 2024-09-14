@@ -6,7 +6,7 @@ exports[`recommended > should include the js recommended config 1`] = `
     "parser": {
       "meta": {
         "name": "typescript-eslint/parser",
-        "version": "8.3.1-alpha.11",
+        "version": "8.5.0",
       },
       "parseForESLint": [Function],
     },
@@ -757,7 +757,7 @@ exports[`recommended > should include the js recommended config 1`] = `
       },
       "meta": {
         "name": "@typescript-eslint/eslint-plugin",
-        "version": "8.3.1-alpha.11",
+        "version": "8.5.0",
       },
       "rules": {
         "adjacent-overload-signatures": {
@@ -4380,6 +4380,7 @@ You must still type the parameters of the function.",
             "fixable": "code",
             "messages": {
               "duplicate": "{{type}} type constituent is duplicated with {{previous}}.",
+              "unnecessary": "Explicit undefined is unnecessary on an optional parameter.",
             },
             "schema": [
               {
@@ -6287,10 +6288,10 @@ You must still type the parameters of the function.",
               "url": "https://typescript-eslint.io/rules/no-unsafe-argument",
             },
             "messages": {
-              "unsafeArgument": "Unsafe argument of type \`{{sender}}\` assigned to a parameter of type \`{{receiver}}\`.",
-              "unsafeArraySpread": "Unsafe spread of an \`any\` array type.",
-              "unsafeSpread": "Unsafe spread of an \`any\` type.",
-              "unsafeTupleSpread": "Unsafe spread of a tuple type. The argument is of type \`{{sender}}\` and is assigned to a parameter of type \`{{receiver}}\`.",
+              "unsafeArgument": "Unsafe argument of type {{sender}} assigned to a parameter of type {{receiver}}.",
+              "unsafeArraySpread": "Unsafe spread of an {{sender}} array type.",
+              "unsafeSpread": "Unsafe spread of an {{sender}} type.",
+              "unsafeTupleSpread": "Unsafe spread of a tuple type. The argument is {{sender}} and is assigned to a parameter of type {{receiver}}.",
             },
             "schema": [],
             "type": "problem",
@@ -8421,7 +8422,7 @@ exports[`recommended > should match the snapshot 1`] = `
       "parser": {
         "meta": {
           "name": "typescript-eslint/parser",
-          "version": "8.3.1-alpha.11",
+          "version": "8.5.0",
         },
         "parseForESLint": [Function],
       },
@@ -9172,7 +9173,7 @@ exports[`recommended > should match the snapshot 1`] = `
         },
         "meta": {
           "name": "@typescript-eslint/eslint-plugin",
-          "version": "8.3.1-alpha.11",
+          "version": "8.5.0",
         },
         "rules": {
           "adjacent-overload-signatures": {
@@ -12795,6 +12796,7 @@ You must still type the parameters of the function.",
               "fixable": "code",
               "messages": {
                 "duplicate": "{{type}} type constituent is duplicated with {{previous}}.",
+                "unnecessary": "Explicit undefined is unnecessary on an optional parameter.",
               },
               "schema": [
                 {
@@ -14702,10 +14704,10 @@ You must still type the parameters of the function.",
                 "url": "https://typescript-eslint.io/rules/no-unsafe-argument",
               },
               "messages": {
-                "unsafeArgument": "Unsafe argument of type \`{{sender}}\` assigned to a parameter of type \`{{receiver}}\`.",
-                "unsafeArraySpread": "Unsafe spread of an \`any\` array type.",
-                "unsafeSpread": "Unsafe spread of an \`any\` type.",
-                "unsafeTupleSpread": "Unsafe spread of a tuple type. The argument is of type \`{{sender}}\` and is assigned to a parameter of type \`{{receiver}}\`.",
+                "unsafeArgument": "Unsafe argument of type {{sender}} assigned to a parameter of type {{receiver}}.",
+                "unsafeArraySpread": "Unsafe spread of an {{sender}} array type.",
+                "unsafeSpread": "Unsafe spread of an {{sender}} type.",
+                "unsafeTupleSpread": "Unsafe spread of a tuple type. The argument is {{sender}} and is assigned to a parameter of type {{receiver}}.",
               },
               "schema": [],
               "type": "problem",
