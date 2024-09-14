@@ -10,7 +10,8 @@ export const config: Linter.Config[] = [
     name: 'axiom/plugin/node/overrides',
     rules: {
       'n/prefer-node-protocol': 'error',
-      'n/no-missing-import': 'off'
+      'n/no-missing-import': 'off',
+      'n/no-extraneous-import': 'off'
     }
   }
 ]
