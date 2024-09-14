@@ -15,7 +15,7 @@ const axiom: Linter.Config[] = [
       'no-restricted-syntax': [
         'error',
         {
-          selector: ':matches(PropertyDefinition, MethodDefinition)[accessibility="private"]',
+          selector: ':matches(PropertyDefinition)[accessibility="private"]',
           message: 'Use #private fields instead'
         }
       ]
