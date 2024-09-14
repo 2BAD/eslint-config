@@ -1,14 +1,13 @@
 import js from '@eslint/js'
 import type { Linter } from 'eslint'
-import ts from 'typescript-eslint'
+import { configs } from 'typescript-eslint'
 
-const recommended: Linter.Config[] = [
+const strict: Linter.Config[] = [
   {
     name: 'axiom/rules/strict',
     rules: js.configs.recommended.rules
   },
-  // eslint-disable-next-line import-x/no-named-as-default-member
-  ...(ts.configs.strict as Linter.Config[])
+  ...(configs.strict as Linter.Config[])
 ]
 
-export default recommended
+export default strict
