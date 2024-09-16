@@ -70,7 +70,7 @@
   "devDependencies": {
     "@2bad/tsconfig": "3.0.1",
     "@2bad/tsfix": "0.1.0",
-    "@biomejs/biome": "1.9.0",
+    "@biomejs/biome": "1.9.1",
     "@swc/cli": "0.4.0",
     "@swc/core": "1.7.26",
     "@types/node": "22.5.5",
